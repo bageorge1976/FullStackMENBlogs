@@ -1,0 +1,28 @@
+{
+  "name": "blog_prj",
+  "version": "1.0.0",
+  "description": "Blog Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "express",
+    "node"
+  ],
+  "author": "Bogdan Georgescu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
